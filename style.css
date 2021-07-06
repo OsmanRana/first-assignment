@@ -24,11 +24,12 @@ p {
     font-weight: 300;
     line-height: 30px;
 }
-main {
+.main {
     width: 80%;
     height: 100%;
-    margin: 5% auto;
+    margin: 0 auto;
     background-color: rgba(240, 240, 240, .25);
+    border-radius: 25px;
 }
 .flexible-section {
     display: flex;
@@ -48,6 +49,43 @@ main {
 .button:hover{
     color:  black;
     background-image: linear-gradient(to right, orangered, orange); 
+}
+/*HEADER*/
+.header {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .15);
+}
+header p {
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.icon img {
+    width: 50px;
+    height: auto;
+}
+.icon a { 
+    margin-right: 2%;
+}
+#facebook {
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+/*FORM*/
+form {
+   
+    margin-bottom: 5%;
+    margin-right: 5%;
+    
+}
+input {
+        width: 50%;
+        height: 25px;
+        border: 2px solid rgb(0, 0, 0, .15);
+        border-radius: 50px;
 }
 /* SECTION-A*/
 .section-a {
@@ -73,10 +111,11 @@ span {
     width: 50%;
     height: auto;
     padding-left: 25%;
-    margin-top: 30px;
+    margin-top: 4%;
     
 }
 .section-b {
+    width: auto;
     height: 600px;
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
@@ -87,7 +126,6 @@ span {
 }
 .section-b p {
     padding-right: 25%;
-    text-align: justify;
 }
 
 /*SECTION-C*/
@@ -139,4 +177,8 @@ span {
     background-color: black;
     text-align: center;
     color: white;
+    padding: 10px;
+}
+.section-e p {
+    margin-top: -40px;
 }
