@@ -9,8 +9,17 @@ h1 {
     font-weight: 400;
 }
 h2 {
+    display: inline;
     font-size: 36px;
     font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 1px solid orangered;
+
+}
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
 }
 main {
     width: 80%;
@@ -39,19 +48,18 @@ main {
 }
 /* SECTION-A*/
 .section-a {
-    border: 1px solid rgba(8, 8, 8, .15);
+    border: 1px solid orangered;
     border-radius: 25px;
 }
 span {
     color: orangered;
     font-weight: 700;
 }
-p {
-    font-size: 18px;
-    font-weight: 300;
-}
 .equal-portion {
     width: 50%
+}
+.equal-portion img {
+    width: 100%
 }
 #top-margin {
     margin-top: 80px;
@@ -62,7 +70,7 @@ p {
     width: 50%;
     height: auto;
     padding-left: 25%;
-    margin-top: 27px;
+    margin-top: 30px;
     
 }
 .section-b {
@@ -76,6 +84,24 @@ p {
 }
 .section-b p {
     padding-right: 25%;
-    line-height: 30px;
     text-align: justify;
+}
+
+/*SECTION-C*/
+.recipie {
+    text-align: center;
+    padding: 0px 50px;
+    margin: 5%;
+}
+.one-third-portion {
+    width: 30%;
+    background-color: white;
+    margin-right: 5%;
+    border: 20px solid white; 
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .15);
+   
+}
+.one-third-portion img {
+    width: 100%;
 }
