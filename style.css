@@ -14,7 +14,10 @@ h2 {
     font-weight: 400;
     padding-bottom: 5px;
     border-bottom: 1px solid orangered;
-
+}
+h3 {
+    font-size: 36px;
+    font-weight: 900;
 }
 p {
     font-size: 18px;
@@ -104,4 +107,26 @@ span {
 }
 .one-third-portion img {
     width: 100%;
+}
+
+/*SECTION-D*/
+.section-d {
+    width:85%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .15);
+}
+.one-third-portion-combine {
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 7%;   
+}
+.section-d h1 {
+    font-weight: 900;
+    font-size: 46px;
+}
+.section-d p {
+    margin-top: -40px;
 }
