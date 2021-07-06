@@ -59,33 +59,48 @@ p {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, .15);
 }
 header p {
+    display: inline-block;
+    width: 18%;
     margin-top: 4%;
     margin-left: 5%;
+    border: 1px solid orangered;
+    border-radius: 25px;
+    text-align: center;
 }
+
 .icon img {
     width: 50px;
     height: auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .35); 
 }
 .icon a { 
     margin-right: 2%;
 }
 #facebook {
-    width: 40px;
+    width: 38px;
+    border: 5px solid rgba(240, 240, 240, .25);;
     border-radius: 50%;
-    margin-top: 5px;
+    
 }
+
 /*FORM*/
-form {
-   
+.form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    margin-top: 5%;
     margin-bottom: 5%;
-    margin-right: 5%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .15);
     
 }
 input {
         width: 50%;
         height: 25px;
-        border: 2px solid rgb(0, 0, 0, .15);
+        border: 1px solid rgb(0, 0, 0, .15);
         border-radius: 50px;
+        padding-left: 1%;
 }
 /* SECTION-A*/
 .section-a {
@@ -122,7 +137,7 @@ span {
     background-size: cover;
     background-position: center;  
     border-radius: 25px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, .15);
+    
 }
 .section-b p {
     padding-right: 25%;
