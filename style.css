@@ -27,7 +27,7 @@ p {
 main {
     width: 80%;
     height: 100%;
-    margin: 0 auto;
+    margin: 5% auto;
     background-color: rgba(240, 240, 240, .25);
 }
 .flexible-section {
@@ -129,4 +129,14 @@ span {
 }
 .section-d p {
     margin-top: -40px;
+}
+
+/*SECTION-E*/
+.section-e {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+    color: white;
 }
